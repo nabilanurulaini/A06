@@ -98,21 +98,6 @@ header {
 }
 
 /* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
@@ -182,11 +167,7 @@ header {
     gap: 2rem;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
-    text-align: center;
-}
+
 
 img {
     max-width: 100%;
@@ -209,24 +190,46 @@ img {
 }
 
 .card-menu {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    width: 25%;
+    width: clamp(5rem, calc(15rem + 2vw), 17rem);
+    padding-left: 20px;
+    padding-right: 20px;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 1em;
     background-color: #f1f1f1;
-    margin-bottom: 15px;
 
+    margin-bottom: 10px;
+
+    text-align: center;
 }
 
-
-.card__body {
-    padding: 1rem;
+.card-body-menu {
+    padding: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     gap: .5rem;
     transition: 0.7s;
+
+}
+
+.card__body {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    transition: 0.7s;
+
+    padding-left: 1rem;
+}
+
+.card-menu a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
 }
 
 
@@ -262,6 +265,10 @@ img {
 .card__body h4 {
     font-size: 1.5rem;
     text-transform: capitalize;
+}
+
+.card__body h1 {
+    font-size: 2rem;
 }
 
 .card__footer {
