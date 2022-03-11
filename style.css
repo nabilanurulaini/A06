@@ -150,7 +150,7 @@ header {
 }
 
 .navbar a.active {
-    background-color: #1C6DD0;
+    background-color: #3DB2FF;
     color: white;
 }
 
@@ -187,6 +187,10 @@ img {
     background-color: #f1f1f1;
     margin-bottom: 15px;
 
+}
+
+.card a {
+    text-decoration: none;
 }
 
 .card-menu {
@@ -232,6 +236,14 @@ img {
     text-align: center;
 }
 
+button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border-radius: 1em;
+    margin-left: 10em;
+    background: #3DB2FF;
+    color: #fafafa;
+}
 
 .tag {
     align-self: flex-start;
@@ -269,6 +281,10 @@ img {
 
 .card__body h1 {
     font-size: 2rem;
+}
+
+.card__body p {
+    text-align: justify;
 }
 
 .card__footer {
