@@ -204,10 +204,21 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 1em;
     background-color: #f1f1f1;
-
+    margin-bottom: 15px;
 
 }
 
+.card-menu {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    background-color: #f1f1f1;
+    margin-bottom: 15px;
+
+}
 
 
 .card__body {
