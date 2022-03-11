@@ -248,6 +248,20 @@ a {
     }
 }
 
+@media screen and (max-width: 667px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .column-menu {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
 
 .btn-wrapper {
     margin: 30px 0;
