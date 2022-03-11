@@ -2,12 +2,16 @@
 
 <head>
     <title>Raja Ampat</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 </head>
 
 <body>
+
     <header>
         <div class="navbar">
             <a href="#home" class="active">Home</a>
@@ -17,244 +21,242 @@
         </div>
     </header>
 
-    <div class="main">
-        <!-- top-wrapper -->
-        <div class="top-wrapper" style="background:image(img/1.jpg)">
-            <div class="container">
-                <h1>BALI</h1>
-                <p>Progate is a web service where you can learn programming online.<br>We offer you a fully equipped
-                    coding
-                    environment to get you started.
-                </p>
-            </div>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/1.jpg" style="width:100%;height: 100%;">
+            <div class="text">Bali</div>
         </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/2.jpg" style="width:100%;height: 100%;">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/3.jpg" style="width:100%;height: 100%;">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- top-wrapper -->
+    <!-- <div class="top-wrapper">
+
+        <h1>BALI</h1>
+        <p>Progate is a web service where you can learn programming online.<br>We offer you a fully equipped
+            coding
+            environment to get you started.
+        </p>
+
+
+    </div> -->
+
+    <div class="container">
         <!-- menu -->
-        <div class="menu">
-            <div class="row-menu">
-                <div class="column-menu">
-                    <a href="#places">
-                        <div class="card-menu">Places
-                        </div>
-                    </a>
-                </div>
-                <div class="column-menu">
-                    <a href="#foods">
-                        <div class="card-menu">Foods
-                        </div>
-                    </a>
-                </div>
-                <div class="column-menu">
-                    <a href="#hotels">
-                        <div class="card-menu">Hotels
-                        </div>
-                    </a>
-                </div>
-                <div class="column-menu">
-                    <div class="card-menu">Oleh</div>
-                </div>
+        <div class="container-wrapper">
+            <div class="card">
+                <a href="#places">
+                    <div class="card__body">
+                        Places
+                    </div>
+                </a>
+
+            </div>
+            <div class="card">
+                <a href="#cafe">
+                    <div class="card__body">
+                        Restaurant/Cafe
+                    </div>
+                </a>
+
+            </div>
+            <div class="card">
+                <a href="#places">
+                    <div class="card__body">
+                        Places
+                    </div>
+                </a>
+
+            </div>
+            <div class="card">
+                <a href="#places">
+                    <div class="card__body">
+                        Places
+                    </div>
+                </a>
+
             </div>
         </div>
+
+        <div class="container-wrapper">
+            <div class="card">
+
+                <div class="card__body" id="places">
+                    <h1>Most Visited Places in Bali</h1>
+                    <p>Recomendation for places you can go for holiday</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card__header">
+                    <img src="img/nusa_penida1.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                    <span class="tag tag-brown">Place</span>
+                    <h4>Nusa Penida</h4>
+                    <p>Nusa Penida is an island that is part of the Republic of Indonesia which is
+                        located
+                        southeast of
+                        Bali which is separated by the Badung Strait. Near this island there are also
+                        other
+                        small islands, namely Nusa Ceningan and Nusa Lembongan. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__header">
+                    <img src="img/pura_lempuyang.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                    <span class="tag tag-red">Place</span>
+                    <h4>Pura Lempuyang</h4>
+                    <p>Lempuyang Temple, also known as Lempuyang Luhur Temple or Penaratan Agung Lempuyang
+                        Temple is one of the largest and most important temples for Hindus to worship on the
+                        island of Bali. This temple has been viral since last year, because the towering
+                        gate of the temple faces directly to Mount Agung. So many people visited</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card__header">
+                    <img src="img/labuhan_kebo.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                    <span class="tag tag-red">Place</span>
+                    <h4>Labuhan Kebo</h4>
+                    <p>Labuhan Kebo. A name that may not sound very Balinese but this waterfall is so
+                        beautiful it is not inferior to many other waterfalls in Buleleng. Not the type that
+                        has many fans, the rope is actually quite happy because that way it will always be
+                        awake. Passing the Gobleg area, even the entrance to the waterfall is so neat. If
+                        you bring a car, it fits really well</p>
+                </div>
+
+            </div>
+            <!-- Food -->
+            <div class="card">
+
+                <div class="card__body" id="cafe">
+                    <h1>Most Favorite Restaurant/Cafe in Bali </h1>
+                    <p>Recomendation restaurant/cafe to eat </p>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card__header">
+                    <img src="img/montana_cafe.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                    <span class="tag tag-brown">Restaurant/Cafe</span>
+                    <h4>Montana Cafe</h4>
+                    <p>The trip to the other side of Bali is long and a refreshment stop is always welcome,
+                        yet
+                        pickings are slim as you get further from the tourist centres. Montana Cafe Bali,
+                        one of the
+                        sensational cafes in Kintamani, is a great way to break up the
+                        trip, enjoy sensational views, delicious local coffee and
+                        rarified;
+                        atmosphere of Kintamani.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__header">
+                    <img src="img/melali_ubud.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                    <span class="tag tag-red">Restaurant/Cafe</span>
+                    <h4>Melali Cafe</h4>
+                    <p>There is something about hotels that make you hungry for things you might not
+                        normally eat.
+                        Perhaps it's being so far away from your own kitchen? Regardless, holidays are for
+                        indulgence. What could be more sinful than a plate of freshly made waffles, tumbled
+                        with
+                        fresh fruit and then smothered in chocolate sauce? I feel better already.</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card__header">
+                    <img src="img/elkabron.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                    <span class="tag tag-red">Restaurant/Cafe</span>
+                    <h4>El Kabron</h4>
+                    <p>Perched 50 minutes above the sea, on the Uluwatu cliffs, El Kabron offers one of
+                        Bali's most
+                        secluded sunsets, and so much more. With the expansion finished last year, there is
+                        now so
+                        much more to love. The white terraces
+                        surrounding the sparkling blue pool are the perfect setting for ordering up tapas
+                        dishes,
+                        fresh seafood and more.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer>
+            <p>©opyright : Kelompok A06</p>
+        </footer>
     </div>
-    <!-- 1. places -->
-    <div class="main">
-        <div class="row" id="places">
-            <div class="column">
-                <div class="card">
-                    <div class="wrapper-title">
-                        <h1><b>Most Visited Places in Bali</b></h1>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
 
-                    </div>
-                </div>
-            </div>
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
 
-            <div class=" column">
-                <div class="card">
-                    <img src="img/nusa_penida1.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>Nusa Penida</b></h4>
-                        <p class="txt-contents">
-                            Nusa Penida is an island that is part of the Republic of Indonesia which is
-                            located
-                            southeast of
-                            Bali which is separated by the Badung Strait. Near this island there are also
-                            other
-                            small islands, namely Nusa Ceningan and Nusa Lembongan. You can enjoy the
-                            breathtaking view
-                            here once in a while while in summer for most beautiful scenery
-                        </p>
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="img/pura_lempuyang.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>Pura Lempuyang</b></h4>
-                        <p class="txt-contents">
-                            Lempuyang Temple, also known as Lempuyang Luhur Temple or Penaratan Agung Lempuyang
-                            Temple is one of the largest and most important temples for Hindus to worship on the
-                            island of Bali. This temple has been viral since last year, because the towering
-                            gate of the temple faces directly to Mount Agung. So many people visited</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card"><img src="img/labuhan_kebo.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>Labuhan Kebo</b></h4>
-                        <p class="txt-contents">
-                            Labuhan Kebo. A name that may not sound very Balinese but this waterfall is so
-                            beautiful it is not inferior to many other waterfalls in Buleleng. Not the type that
-                            has many fans, the rope is actually quite happy because that way it will always be
-                            awake. Passing the Gobleg area, even the entrance to the waterfall is so neat. If
-                            you bring a car, it fits really well</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 2. FOod -->
-        <div class="row" id="foods">
-            <div class="column">
-                <div class="card">
-                    <div class="wrapper-title">
-                        <h1><b>Most Favorite Food in Bali</b></h1>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="img/montana_cafe.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>Montana Cafe</b></h4>
-                        <p class="txt-contents">
-                            The trip to the other side of Bali is long and a refreshment stop is always welcome,
-                            yet
-                            pickings are slim as you get further from the tourist centres. Montana Cafe Bali,
-                            one of the
-                            sensational cafes in Kintamani, is a great way to break up the
-                            trip, enjoy sensational views, delicious local coffee and
-                            rarified;
-                            atmosphere of Kintamani.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="img/melali_ubud.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>Melali</b></h4>
-                        <p class="txt-contents">
-                            There is something about hotels that make you hungry for things you might not
-                            normally eat.
-                            Perhaps it's being so far away from your own kitchen? Regardless, holidays are for
-                            indulgence. What could be more sinful than a plate of freshly made waffles, tumbled
-                            with
-                            fresh fruit and then smothered in chocolate sauce? I feel better already.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card"><img src="img/labuhan_kebo.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>El Kabron</b></h4>
-                        <p class="txt-contents">
-                            Perched 50 minutes above the sea, on the Uluwatu cliffs, El Kabron offers one of
-                            Bali's most
-                            secluded sunsets, and so much more. With the expansion finished last year, there is
-                            now so
-                            much more to love. The white terraces
-                            surrounding the sparkling blue pool are the perfect setting for ordering up tapas
-                            dishes,
-                            fresh seafood and more.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 3 Hotel -->
-        <div class="row" id="hotels">
-            <div class="column">
-                <div class="card">
-                    <div class="wrapper-title">
-                        <h1><b>Most Popular Hotels in Bali</b></h1>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="img/montana_cafe.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>Montana Cafe</b></h4>
-                        <p class="txt-contents">
-                            The trip to the other side of Bali is long and a refreshment stop is always welcome,
-                            yet
-                            pickings are slim as you get further from the tourist centres. Montana Cafe Bali,
-                            one of the
-                            sensational cafes in Kintamani, is a great way to break up the
-                            trip, stretch your legs, enjoy sensational views, delicious local coffee and
-                            rarified
-                            atmosphere of Kintamani.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="img/melali_ubud.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>Melali</b></h4>
-                        <p class="txt-contents">
-                            There is something about hotels that make you hungry for things you might not
-                            normally eat.
-                            Perhaps it's being so far away from your own kitchen? Regardless, holidays are for
-                            indulgence. What could be more sinful than a plate of freshly made waffles, tumbled
-                            with
-                            fresh fruit and then smothered in chocolate sauce? I feel better already.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card"><img src="img/elkabron.jpg" alt="Avatar">
-                    <div class="wrapper">
-                        <h4><b>El Kabron</b></h4>
-                        <p class="txt-contents">
-                            Perched 50 minutes above the sea, on the Uluwatu cliffs, El Kabron offers one of
-                            Bali's most
-                            secluded sunsets, and so much more. With the expansion finished last year, there is
-                            now so
-                            much more to love. The white terraces
-                            surrounding the sparkling blue pool are the perfect setting for ordering up tapas
-                            dishes,
-                            fresh seafood and more.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-
-    <footer>
-        <p>©opyright : Kelompok A06</p>
-    </footer>
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </body>
 
 </html>
