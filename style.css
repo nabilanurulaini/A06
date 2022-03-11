@@ -177,7 +177,7 @@ body {
     float: left;
     width: 25%;
     padding: 0 10px;
-    height: 75%;
+    height: 90%;
 }
 
 .column-menu {
@@ -190,7 +190,7 @@ body {
 /* Remove extra left and right margins, due to padding in columns */
 .row {
     margin: 0 -5px;
-    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 /* Clear floats after the columns */
