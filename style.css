@@ -133,7 +133,6 @@ header {
     margin-bottom: 30PX;
 }
 
-
 .navbar a {
     float: left;
     display: block;
@@ -150,7 +149,7 @@ header {
 }
 
 .navbar a.active {
-    background-color: #3DB2FF;
+    background-color: #2F80ED;
     color: white;
 }
 
@@ -230,6 +229,10 @@ img {
     padding-left: 1rem;
 }
 
+.card__body p {
+    color: #000;
+}
+
 .card-menu a {
     text-decoration: none;
     color: #000;
@@ -241,8 +244,7 @@ button {
     padding: 10px 20px;
     border-radius: 1em;
     margin-left: 10em;
-    background: #3DB2FF;
-    color: #fafafa;
+
 }
 
 .tag {
@@ -415,4 +417,28 @@ button {
 
     color: #414141;
 
+}
+
+
+
+footer {
+    margin-top: 10em;
+    position: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2F80ED;
+    color: #fafafa;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
 }
