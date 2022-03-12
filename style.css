@@ -270,6 +270,12 @@ button {
     color: #fafafa;
 }
 
+.tag-green {
+    background: #d13cbd;
+    background: linear-gradient(to bottom, #ffb5fb, #d13cbd);
+    color: #fafafa;
+}
+
 .tag-red {
     background: #cb2d3e;
     background: linear-gradient(to bottom, #ef473a, #cb2d3e);
