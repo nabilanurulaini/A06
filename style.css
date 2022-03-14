@@ -441,7 +441,7 @@ header img {
 .icon-burger .line {
   width: 30px;
   height: 3px;
-  background-color: #2f80ed;
+  background-color: #00b4fb;
   margin: 5px;
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
@@ -460,7 +460,7 @@ header img {
     height: auto;
     flex-direction: column;
     /* background-color: rgba(0, 0, 0, 0.8); */
-    background-color: #2f80ed;
+    background-color: #00b4fb;
     opacity: 0.8;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
@@ -480,7 +480,7 @@ header img {
   }
   header .links a:hover {
     background-color: white;
-    color: #2f80ed;
+    color: #00b4fb;
     opacity: 1;
     border-radius: 2px;
   }
