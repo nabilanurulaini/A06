@@ -1,26 +1,35 @@
-<html>
-
+<!DOCTYPE html>
 <head>
   <title>Raja Ampat</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 </head>
+
 
 <body>
 
   <header>
     <div class="navbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
+      <input type="checkbox" id="nav-toggle" />
+      <img src="logo.jpeg" alt="Raja Ampat" />
+      <!-- <a href="#home" class="active">Raja Ampat</a> -->
+      <!-- <a href="#news">News</a>
       <a href="#contact">Contact</a>
-      <a href="#about">About Us</a>
+      <a href="#about">About Us</a> -->
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
     </div>
   </header>
-
   <div class="slideshow-container">
 
     <!-- Full-width images with number and caption text -->
