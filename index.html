@@ -1,424 +1,612 @@
 <html>
 
 <head>
-    <title>Raja Ampat</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+  <title>Raja Ampat</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-
-    <header>
-        <div class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About Us</a>
-        </div>
-    </header>
-
-    <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-
-            <img src="img/1.jpg" style="width:100%;height: 100%;">
-            <!-- <div class="text">Bali</div> -->
-        </div>
-
-        <div class="mySlides fade">
-
-            <img src="img/2.jpg" style="width:100%;height: 100%;">
-            <!-- <div class="text">Caption Two</div> -->
-        </div>
-
-        <div class="mySlides fade">
-
-            <img src="img/3.jpg" style="width:100%;height: 100%;">
-            <!-- <div class="text">Caption Three</div> -->
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <header>
+    <div class="navbar">
+      <input type="checkbox" id="nav-toggle" />
+      <a href="#home" class="active">Raja Ampat</a>
+      <!-- <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a> -->
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
     </div>
-    <br>
-
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+  </header>
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="img/1.jpg" style="width:100%;height: 100%;">
     </div>
-    <!-- top-wrapper -->
-    <!-- <div class="top-wrapper">
+    <div class="mySlides fade">
+      <img src="img/2.jpg" style="width:100%;height: 100%;">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/3.jpg" style="width:100%;height: 100%;">
 
-        <h1>BALI</h1>
-        <p>Progate is a web service where you can learn programming online.<br>We offer you a fully equipped
-            coding
-            environment to get you started.
-        </p>
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br />
 
+  >>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
+  <div class="container">
+    <!-- menu -->
+    <div class="container-wrapper">
+      <div class="card-menu">
+        <a href="#places">
+          <div class="card-body-menu">Places</div>
+        </a>
+      </div>
+      <<<<<<< HEAD <div class="container-wrapper">
+        <div class="card">
+          <div class="card_body" id="places">
+            <h1>Most </h1>
+            <h1>Visited Places in Bali</h1>
+            <p>Recomendation for places you can go for holiday</p>
+          </div>
 
-    </div> -->
-
-    <div class="container">
-        <!-- menu -->
-        <div class="container-wrapper">
-            <div class="card-menu">
-                <a href="#places">
-                    <div class="card-body-menu">
-                        Places
-                    </div>
-                </a>
-
-            </div>
-            <div class="card-menu">
-                <a href="#cafe">
-                    <div class="card-body-menu">
-                        Cafe
-                    </div>
-                </a>
-
-            </div>
-            <div class="card-menu">
-                <a href="#hotels">
-                    <div class="card-body-menu">
-                        Hotels
-                    </div>
-                </a>
-
-            </div>
-            <div class="card-menu">
-                <a href="#agent">
-                    <div class="card-body-menu">
-                        Tour and Travel
-                    </div>
-                </a>
-
-            </div>
         </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/nusa_penida1.jpg" alt="card__image" class="card__image" width="600">
+          </div>
+          <div class="card_body">
+            <span class="tag tag-blue">Place</span>
+            <h4>Nusa Penida</h4>
+            <p>Nusa Penida is an island that is part of the Republic of Indonesia which is
+              located
+              southeast of
+              Bali which is separated by the Badung Strait. Near this island there are also
+              other
+              small islands, namely Nusa Ceningan and Nusa Lembongan. </p>
+          </div>
+          <!-- <div class="card__footer">
+=======
+        <div class="card-menu">
+          <a href="#cafe">
+            <div class="card-body-menu">Cafe</div>
+          </a>
+        </div>
+        <div class="card-menu">
+          <a href="#hotels">
+            <div class="card-body-menu">Hotels</div>
+          </a>
+        </div>
+        <div class="card-menu">
+          <a href="#agent">
+            <div class="card-body-menu">Tour and Travel</div>
+          </a>
+        </div>
+      </div>
 
-        <div class="container-wrapper">
-            <div class="card">
-                <div class="card__body" id="places">
-                    <h1>Most </h1>
-                    <h1>Visited Places in Bali</h1>
-                    <p>Recomendation for places you can go for holiday</p>
-                </div>
-
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/nusa_penida1.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-blue">Place</span>
-                    <h4>Nusa Penida</h4>
-                    <p>Nusa Penida is an island that is part of the Republic of Indonesia which is
-                        located
-                        southeast of
-                        Bali which is separated by the Badung Strait. Near this island there are also
-                        other
-                        small islands, namely Nusa Ceningan and Nusa Lembongan. </p>
-                </div>
-                <!-- <div class="card__footer">
+      <div class="container-wrapper">
+        <div class="card">
+          <div class="card__body" id="places">
+            <h1>Most</h1>
+            <h1>Visited Places in Bali</h1>
+            <p>Recomendation for places you can go for holiday</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/nusa_penida1.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">Place</span>
+            <h4>Nusa Penida</h4>
+            <p>
+              Nusa Penida is an island that is part of the Republic of Indonesia which is located southeast of Bali which is separated by the Badung Strait. Near this island there are also other small islands, namely Nusa Ceningan and Nusa
+              Lembongan.
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/dAjEVw4mnYVdTGUa8">
                         <button>Location</button>
                     </a>
                 </div> -->
+          <<<<<<< HEAD </div> <div class="card">
+            <div class="card__header">
+              <img src="img/pura_lempuyang.jpg" alt="card__image" class="card__image" width="600">
             </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/pura_lempuyang.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-blue">Place</span>
-                    <h4>Pura Lempuyang</h4>
-                    <p>Lempuyang Temple, also known as Lempuyang Luhur Temple or Penaratan Agung Lempuyang
-                        Temple is one of the largest and most important temples for Hindus to worship on the
-                        island of Bali. This temple has been viral since last year, because the towering
-                        gate of the temple faces directly to Mount Agung. So many people visited</p>
-                </div>
-                <!-- <div class="card__footer">
+            <div class="card_body">
+              <span class="tag tag-blue">Place</span>
+              <h4>Pura Lempuyang</h4>
+              <p>Lempuyang Temple, also known as Lempuyang Luhur Temple or Penaratan Agung Lempuyang
+                Temple is one of the largest and most important temples for Hindus to worship on the
+                island of Bali. This temple has been viral since last year, because the towering
+                gate of the temple faces directly to Mount Agung. So many people visited</p>
+            </div>
+            <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/pura_lempuyang.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">Place</span>
+            <h4>Pura Lempuyang</h4>
+            <p>
+              Lempuyang Temple, also known as Lempuyang Luhur Temple or Penaratan Agung Lempuyang Temple is one of the largest and most important temples for Hindus to worship on the island of Bali. This temple has been viral since last
+              year, because the towering gate of the temple faces directly to Mount Agung. So many people visited
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/Ww6DQddftQaVGSSJ7">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/labuhan_kebo.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-blue">Place</span>
-                    <h4>Labuhan Kebo</h4>
-                    <p>Labuhan Kebo. A name that may not sound very Balinese but this waterfall is so
-                        beautiful it is not inferior to many other waterfalls in Buleleng. Not the type that
-                        has many fans, the rope is actually quite happy because that way it will always be
-                        awake. Passing the Gobleg area, even the entrance to the waterfall is so neat. If
-                        you bring a car, it fits really well</p>
-                </div>
-                <!-- <div class="card__footer">
+            <<<<<<< HEAD </div> <div class="card">
+              <div class="card__header">
+                <img src="img/labuhan_kebo.jpg" alt="card__image" class="card__image" width="600">
+              </div>
+              <div class="card_body">
+                <span class="tag tag-blue">Place</span>
+                <h4>Labuhan Kebo</h4>
+                <p>Labuhan Kebo. A name that may not sound very Balinese but this waterfall is so
+                  beautiful it is not inferior to many other waterfalls in Buleleng. Not the type that
+                  has many fans, the rope is actually quite happy because that way it will always be
+                  awake. Passing the Gobleg area, even the entrance to the waterfall is so neat. If
+                  you bring a car, it fits really well</p>
+              </div>
+              <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/labuhan_kebo.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">Place</span>
+            <h4>Labuhan Kebo</h4>
+            <p>
+              Labuhan Kebo. A name that may not sound very Balinese but this waterfall is so beautiful it is not inferior to many other waterfalls in Buleleng. Not the type that has many fans, the rope is actually quite happy because that
+              way it will always be awake. Passing the Gobleg area, even the entrance to the waterfall is so neat. If you bring a car, it fits really well
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/dUa8FzpmFdkSyHYX6">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-            <!-- Hotels -->
-            <div class="card">
-                <div class="card__body" id="cafe">
+              <<<<<<< HEAD </div> <!-- Hotels -->
+                <div class="card">
+                  <div class="card_body" id="cafe">
                     <h1>Most</h1>
                     <h1>Favorite Cafe in Bali </h1>
                     <p>Recomendation restaurant/cafe to eat </p>
+                  </div>
+
                 </div>
+                <div class="card">
 
-            </div>
-            <div class="card">
-
-                <div class="card__header">
+                  <div class="card__header">
                     <img src="img/montana_cafe.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
+                  </div>
+                  <div class="card_body">
                     <span class="tag tag-red">Restaurant/Cafe</span>
                     <h4>Montana Del Cafe</h4>
                     <p>The trip to the other side of Bali is long and a refreshment stop is always welcome,
-                        yet
-                        pickings are slim as you get further from the tourist centres. Montana Cafe Bali,
-                        one of the
-                        sensational cafes in Kintamani, is a great way to break up the
-                        trip, enjoy sensational views, delicious local coffee and
-                        rarified;
-                        atmosphere of Kintamani.</p>
-                </div>
-                <!-- <div class="card__footer">
+                      yet
+                      pickings are slim as you get further from the tourist centres. Montana Cafe Bali,
+                      one of the
+                      sensational cafes in Kintamani, is a great way to break up the
+                      trip, enjoy sensational views, delicious local coffee and
+                      rarified;
+                      atmosphere of Kintamani.</p>
+                  </div>
+                  <!-- <div class="card__footer">
+=======
+        </div>
+        <!-- Hotels -->
+                  <div class="card">
+                    <div class="card__body" id="cafe">
+                      <h1>Most</h1>
+                      <h1>Favorite Cafe in Bali</h1>
+                      <p>Recomendation restaurant/cafe to eat</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card__header">
+                      <img src="img/montana_cafe.jpg" alt="card__image" class="card__image" width="600" />
+                    </div>
+                    <div class="card__body">
+                      <span class="tag tag-red">Restaurant/Cafe</span>
+                      <h4>Montana Del Cafe</h4>
+                      <p>
+                        The trip to the other side of Bali is long and a refreshment stop is always welcome, yet
+                        pickings are slim as you get further from the tourist centres. Montana Cafe Bali, one of the
+                        sensational cafes in Kintamani, is a great
+                        way to break up the trip, enjoy sensational views, delicious local coffee and rarified;
+                        atmosphere of Kintamani.
+                      </p>
+                    </div>
+                    <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/jN5JkLUeB8UGEvWf6">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/melali_ubud.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-red">Restaurant/Cafe</span>
-                    <h4>Melali Cafe</h4>
-                    <p>There is something about hotels that make you hungry for things you might not
-                        normally eat.
-                        Perhaps it's being so far away from your own kitchen? Regardless, holidays are for
-                        indulgence. What could be more sinful than a plate of freshly made waffles, tumbled
-                        with
-                        fresh fruit and then smothered in chocolate sauce? I feel better already.</p>
-                </div>
-                <!-- <div class="card__footer">
+                    <<<<<<< HEAD </div> <div class="card">
+                      <div class="card__header">
+                        <img src="img/melali_ubud.jpg" alt="card__image" class="card__image" width="600">
+                      </div>
+                      <div class="card_body">
+                        <span class="tag tag-red">Restaurant/Cafe</span>
+                        <h4>Melali Cafe</h4>
+                        <p>There is something about hotels that make you hungry for things you might not
+                          normally eat.
+                          Perhaps it's being so far away from your own kitchen? Regardless, holidays are for
+                          indulgence. What could be more sinful than a plate of freshly made waffles, tumbled
+                          with
+                          fresh fruit and then smothered in chocolate sauce? I feel better already.</p>
+                      </div>
+                      <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/melali_ubud.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-red">Restaurant/Cafe</span>
+            <h4>Melali Cafe</h4>
+            <p>
+              There is something about hotels that make you hungry for things you might not normally eat. Perhaps it's being so far away from your own kitchen? Regardless, holidays are for indulgence. What could be more sinful than a plate
+              of freshly made waffles, tumbled with fresh fruit and then smothered in chocolate sauce? I feel better already.
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/xxfxrYefA1X1swAq7">
                         <button>Location</button>
                     </a>
                 </div> -->
-
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/elkabron.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-red">Restaurant/Cafe</span>
-                    <h4>El Kabron</h4>
-                    <p>Perched 50 minutes above the sea, on the Uluwatu cliffs, El Kabron offers one of
-                        Bali's most
-                        secluded sunsets, and so much more. With the expansion finished last year, there is
-                        now so
-                        much more to love. The white terraces
-                        surrounding the sparkling blue pool are the perfect setting for ordering up tapas
-                        dishes,
-                        fresh seafood and more.</p>
-                </div>
-                <!-- <div class="card__footer">
+                      <<<<<<< HEAD </div> <div class="card">
+                        <div class="card__header">
+                          <img src="img/elkabron.jpg" alt="card__image" class="card__image" width="600">
+                        </div>
+                        <div class="card_body">
+                          <span class="tag tag-red">Restaurant/Cafe</span>
+                          <h4>El Kabron</h4>
+                          <p>Perched 50 minutes above the sea, on the Uluwatu cliffs, El Kabron offers one of
+                            Bali's most
+                            secluded sunsets, and so much more. With the expansion finished last year, there is
+                            now so
+                            much more to love. The white terraces
+                            surrounding the sparkling blue pool are the perfect setting for ordering up tapas
+                            dishes,
+                            fresh seafood and more.</p>
+                        </div>
+                        <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/elkabron.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-red">Restaurant/Cafe</span>
+            <h4>El Kabron</h4>
+            <p>
+              Perched 50 minutes above the sea, on the Uluwatu cliffs, El Kabron offers one of Bali's most secluded sunsets, and so much more. With the expansion finished last year, there is now so much more to love. The white terraces
+              surrounding the sparkling blue pool are the perfect setting for ordering up tapas dishes, fresh seafood and more.
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://g.page/elkabronbali?share">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-            <div class="card">
-                <div class="card__body" id="hotels">
-                    <h1>Most </h1>
-                    <h1>Popular Hotels in Bali</h1>
-                    <p>Recomendation for places you can go for holiday</p>
-                </div>
+                        <<<<<<< HEAD </div> <div class="card">
+                          <div class="card_body" id="hotels">
+                            <h1>Most </h1>
+                            <h1>Popular Hotels in Bali</h1>
+                            <p>Recomendation for places you can go for holiday</p>
+                          </div>
 
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/kumbuh_jungle.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-green">Hotel</span>
-                    <h4>Kumbuh Jungle</h4>
-                    <p>Kumbuh Jungle is snuggly nestled in the lush jungle of Bawak river at Kumbuh Village. Designed by
+                  </div>
+                  <div class="card">
+                    <div class="card__header">
+                      <img src="img/kumbuh_jungle.jpg" alt="card__image" class="card__image" width="600">
+                    </div>
+                    <div class="card_body">
+                      <span class="tag tag-green">Hotel</span>
+                      <h4>Kumbuh Jungle</h4>
+                      <p>Kumbuh Jungle is snuggly nestled in the lush jungle of Bawak river at Kumbuh Village.
+                        Designed by
                         local talented workers, our bamboo house will create serene space immersed with Balinese Taksu
                         and life quintessence, let Kumbuh Jungle be your space to clear mind and spirit.</p>
-                </div>
-                <!-- <div class="card__footer">
+                    </div>
+                    <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__body" id="hotels">
+            <h1>Most</h1>
+            <h1>Popular Hotels in Bali</h1>
+            <p>Recomendation for places you can go for holiday</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/kumbuh_jungle.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-green">Hotel</span>
+            <h4>Kumbuh Jungle</h4>
+            <p>
+              Kumbuh Jungle is snuggly nestled in the lush jungle of Bawak river at Kumbuh Village. Designed by local talented workers, our bamboo house will create serene space immersed with Balinese Taksu and life quintessence, let Kumbuh
+              Jungle be your space to clear mind and spirit.
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/dAjEVw4mnYVdTGUa8">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-            <div class="card">
+                    <<<<<<< HEAD </div> <div class="card">
 
-                <div class="card__header">
-                    <img src="img/wapa5.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-green">Hotel</span>
-                    <h4>Wapa at Ume Sideman</h4>
-                    <p>This boutique bolthole in the 'New Ubud' reclines in a rich sweep of rice paddies on the lower
-                        slopes of Mount Agung. Private pools star alongside a glorious two-tier infinity pool, and
-                        there's a superb spa and tempting restaurant, too.</p>
-                </div>
-                <!-- <div class="card__footer">
+                      <div class="card__header">
+                        <img src="img/wapa5.jpg" alt="card__image" class="card__image" width="600">
+                      </div>
+                      <div class="card_body">
+                        <span class="tag tag-green">Hotel</span>
+                        <h4>Wapa at Ume Sideman</h4>
+                        <p>This boutique bolthole in the 'New Ubud' reclines in a rich sweep of rice paddies on the
+                          lower
+                          slopes of Mount Agung. Private pools star alongside a glorious two-tier infinity pool, and
+                          there's a superb spa and tempting restaurant, too.</p>
+                      </div>
+                      <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/wapa5.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-green">Hotel</span>
+            <h4>Wapa at Ume Sideman</h4>
+            <p>
+              This boutique bolthole in the 'New Ubud' reclines in a rich sweep of rice paddies on the lower slopes of Mount Agung. Private pools star alongside a glorious two-tier infinity pool, and there's a superb spa and tempting
+              restaurant, too.
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/jN5JkLUeB8UGEvWf6">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/four_seasons.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-green">Hotel</span>
-                    <h4>Four Seasons Resort Bali at Sayan</h4>
-                    <p>Rising out of rice fields above the Ayung River, the Four Seasons Sayan is a sophisticated
-                        tropical resort offering swish facilities, sterling service and experiences to remember, from
-                        biking through local villages to art tours and beautiful Balinese healing rituals</p>
-                </div>
-                <!-- <div class="card__footer">
+                      <<<<<<< HEAD </div> <div class="card">
+                        <div class="card__header">
+                          <img src="img/four_seasons.jpg" alt="card__image" class="card__image" width="600">
+                        </div>
+                        <div class="card_body">
+                          <span class="tag tag-green">Hotel</span>
+                          <h4>Four Seasons Resort Bali at Sayan</h4>
+                          <p>Rising out of rice fields above the Ayung River, the Four Seasons Sayan is a
+                            sophisticated
+                            tropical resort offering swish facilities, sterling service and experiences to remember,
+                            from
+                            biking through local villages to art tours and beautiful Balinese healing rituals</p>
+                        </div>
+                        <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/four_seasons.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-green">Hotel</span>
+            <h4>Four Seasons Resort Bali at Sayan</h4>
+            <p>
+              Rising out of rice fields above the Ayung River, the Four Seasons Sayan is a sophisticated tropical resort offering swish facilities, sterling service and experiences to remember, from biking through local villages to art
+              tours and beautiful Balinese healing rituals
+            </p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/xxfxrYefA1X1swAq7">
                         <button>Location</button>
                     </a>
                 </div> -->
+                        <<<<<<< HEAD </div> <!-- Tour And Travel -->
+                          <div class="card">
+                            <div class="card_body" id="agent">
+                              <h1>Most</h1>
+                              <h1>Recomended Tour Agent</h1>
+                              <p>Recomendation tour agent to use in Bali </p>
+                            </div>
 
-            </div>
-            <!-- Tour And Travel -->
-            <div class="card">
-                <div class="card__body" id="agent">
-                    <h1>Most</h1>
-                    <h1>Recomended Tour Agent</h1>
-                    <p>Recomendation tour agent to use in Bali </p>
-                </div>
+                          </div>
+                          <div class="card">
 
-            </div>
-            <div class="card">
-
-                <div class="card__header">
-                    <img src="img/montana_cafe.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-brown">Tour and Agent</span>
-                    <h4>Bali golden Tour</h4>
-                    <p>Address: Jalan Cekomaria Gang Taman IV, Banjar Ambengan No.1, Peguyangan Kangin, Kec. Denpasar
-                        Utara, Kota Denpasar, Bali 80115
-                        Areas served: Bali</p>
-                    <p>Hours: 7:00AM -11:30PM</p>
-                    <p>Phone: 0851-0096-6391</p>
-                    <p>Appointments: baligoldentour.com</p>
-                </div>
-                <!-- <div class="card__footer">
+                            <div class="card__header">
+                              <img src="img/montana_cafe.jpg" alt="card__image" class="card__image" width="600">
+                            </div>
+                            <div class="card_body">
+                              <span class="tag tag-brown">Tour and Agent</span>
+                              <h4>Bali golden Tour</h4>
+                              <p>Address: Jalan Cekomaria Gang Taman IV, Banjar Ambengan No.1, Peguyangan Kangin, Kec.
+                                Denpasar
+                                Utara, Kota Denpasar, Bali 80115
+                                Areas served: Bali</p>
+                              <p>Hours: 7:00AM -11:30PM</p>
+                              <p>Phone: 0851-0096-6391</p>
+                              <p>Appointments: baligoldentour.com</p>
+                            </div>
+                            <!-- <div class="card__footer">
+=======
+        </div>
+        <!-- Tour And Travel -->
+                            <div class="card">
+                              <div class="card__body" id="agent">
+                                <h1>Most</h1>
+                                <h1>Recomended Tour Agent</h1>
+                                <p>Recomendation tour agent to use in Bali</p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card__header">
+                                <img src="img/montana_cafe.jpg" alt="card__image" class="card__image" width="600" />
+                              </div>
+                              <div class="card__body">
+                                <span class="tag tag-brown">Tour and Agent</span>
+                                <h4>Bali golden Tour</h4>
+                                <p>Address: Jalan Cekomaria Gang Taman IV, Banjar Ambengan No.1, Peguyangan Kangin,
+                                  Kec. Denpasar Utara, Kota Denpasar, Bali 80115 Areas served: Bali</p>
+                                <p>Hours: 7:00AM -11:30PM</p>
+                                <p>Phone: 0851-0096-6391</p>
+                                <p>Appointments: baligoldentour.com</p>
+                              </div>
+                              <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/jN5JkLUeB8UGEvWf6">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/melali_ubud.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-brown">Tour and Agent</span>
-                    <h4>Bali Star Island</h4>
-                    <p>
-                        Address: Jalan Raya Kampus Udayana, Jl. Poh Gading Timur No.10 A, Jimbaran, Kec. Kuta Sel.,
-                        Kabupaten Badung, Bali 80364</p>
-                    <p> Hours:9:00AM-06:00PM</p>
-                    <p> Phone: (0361) 8953599</p>
-                    <p>Province: Bali</p>
-                </div>
-                <!-- <div class="card__footer">
+                              <<<<<<< HEAD </div> <div class="card">
+                                <div class="card__header">
+                                  <img src="img/melali_ubud.jpg" alt="card__image" class="card__image" width="600">
+                                </div>
+                                <div class="card_body">
+                                  <span class="tag tag-brown">Tour and Agent</span>
+                                  <h4>Bali Star Island</h4>
+                                  <p>
+                                    Address: Jalan Raya Kampus Udayana, Jl. Poh Gading Timur No.10 A, Jimbaran, Kec.
+                                    Kuta Sel.,
+                                    Kabupaten Badung, Bali 80364</p>
+                                  <p> Hours:9:00AM-06:00PM</p>
+                                  <p> Phone: (0361) 8953599</p>
+                                  <p>Province: Bali</p>
+                                </div>
+                                <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/melali_ubud.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Tour and Agent</span>
+            <h4>Bali Star Island</h4>
+            <p>Address: Jalan Raya Kampus Udayana, Jl. Poh Gading Timur No.10 A, Jimbaran, Kec. Kuta Sel., Kabupaten Badung, Bali 80364</p>
+            <p>Hours:9:00AM-06:00PM</p>
+            <p>Phone: (0361) 8953599</p>
+            <p>Province: Bali</p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://goo.gl/maps/xxfxrYefA1X1swAq7">
                         <button>Location</button>
                     </a>
                 </div> -->
-
-            </div>
-            <div class="card">
-                <div class="card__header">
-                    <img src="img/elkabron.jpg" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-brown">Tour and Agent</span>
-                    <h4>Bali Aga Tour</h4>
-                    <p>Address: Narotama Group, Jl. Pulau Moyo No.20E, Pedungan, Denpasar Selatan, Denpasar City, Bali
-                        80223
-                    </p>
-                    <p>Hours: 08:00AM-10:00PM</p>
-                    <p>Phone: 0821-4466-5050</p>
-                    <p>Bali</p>
-                </div>
-                <!-- <div class="card__footer">
+                                <<<<<<< HEAD </div> <div class="card">
+                                  <div class="card__header">
+                                    <img src="img/elkabron.jpg" alt="card__image" class="card__image" width="600">
+                                  </div>
+                                  <div class="card_body">
+                                    <span class="tag tag-brown">Tour and Agent</span>
+                                    <h4>Bali Aga Tour</h4>
+                                    <p>Address: Narotama Group, Jl. Pulau Moyo No.20E, Pedungan, Denpasar Selatan,
+                                      Denpasar City, Bali
+                                      80223
+                                    </p>
+                                    <p>Hours: 08:00AM-10:00PM</p>
+                                    <p>Phone: 0821-4466-5050</p>
+                                    <p>Bali</p>
+                                  </div>
+                                  <!-- <div class="card__footer">
+=======
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="img/elkabron.jpg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Tour and Agent</span>
+            <h4>Bali Aga Tour</h4>
+            <p>Address: Narotama Group, Jl. Pulau Moyo No.20E, Pedungan, Denpasar Selatan, Denpasar City, Bali 80223</p>
+            <p>Hours: 08:00AM-10:00PM</p>
+            <p>Phone: 0821-4466-5050</p>
+            <p>Bali</p>
+          </div>
+          <!-- <div class="card__footer">
+>>>>>>> d69555c793c1d96d495fcb7ff17fdf828bdcba67
                     <a href="https://g.page/elkabronbali?share">
                         <button>Location</button>
                     </a>
                 </div> -->
-            </div>
-        </div>
+                            </div>
+                          </div>
 
+                          <footer>
+                            <div class="footer">
+                              <h3>copyright©</h3>
+                            </div>
+                          </footer>
+                  </div>
+                  <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
 
-        <footer>
-            <div class="footer">
-                <h3>copyright©</h3>
-            </div>
-        </footer>
-    </div>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
+                    // Next/previous controls
+                    function plusSlides(n) {
+                      showSlides((slideIndex += n));
+                    }
 
-        // Next/previous controls
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
+                    // Thumbnail image controls
+                    function currentSlide(n) {
+                      showSlides((slideIndex = n));
+                    }
 
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {
+                        slideIndex = 1;
+                      }
+                      if (n < 1) {
+                        slideIndex = slides.length;
+                      }
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex - 1].style.display = "block";
+                      dots[slideIndex - 1].className += " active";
+                    }
+                  </script>
 </body>
 
 </html>
