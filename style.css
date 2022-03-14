@@ -421,7 +421,11 @@ footer h3 {
   line-height: 3rem;
 }
 
-/* icon-burger */
+/* header */
+header img{
+  float:left;
+  width:200px;
+}
 #nav-toggle {
   position: absolute;
   top: -60px;
