@@ -39,7 +39,7 @@ header .links {
   height: 50%;
   position: relative;
   margin: auto;
-  padding-top: 20px;
+  margin-top: 10px;
 }
 
 /* Hide the images by default */
@@ -412,7 +412,7 @@ footer h3 {
 /* header */
 header img {
   float: left;
-  width: 200px;
+  width: 220px;
 }
 
 #nav-toggle {
