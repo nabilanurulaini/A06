@@ -388,25 +388,24 @@ button {
 }
 
 footer {
-  margin-top: 10em;
-  position: flex;
-
-  justify-content: center;
-  flex-direction: column;
-  padding: 1em;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  padding: 20px 20px;
   background-color: #2f80ed;
   color: #fafafa;
-  text-align: center;
+  margin-top: 80px;
+  
 }
 
-footer h3 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  text-transform: capitalize;
-  line-height: 3rem;
+.copyright {
+  float: right;
+  
+}
+
+.aboutraja {
+  float: left;
+  width: 25%;
+  text-align: justify;
+  padding-right: 35px;
+  margin-right: 15px;
 }
 
 /* header */
