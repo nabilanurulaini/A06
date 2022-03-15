@@ -36,7 +36,7 @@ header .links {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1162.06px;
-  height: 50%;
+  height: 40%;
   position: relative;
   margin: auto;
   margin-top: 10px;
@@ -234,7 +234,7 @@ button {
   font-size: 0.75rem;
 }
 
-.tag + .tag {
+.tag+.tag {
   margin-left: 0.5em;
 }
 
@@ -290,7 +290,7 @@ button {
   border-radius: 50%;
 }
 
-.user__info > small {
+.user__info>small {
   color: #666;
 }
 
@@ -392,12 +392,12 @@ footer {
   background-color: #2f80ed;
   color: #fafafa;
   margin-top: 80px;
-  
+
 }
 
 .copyright {
   float: right;
-  
+
 }
 
 .aboutraja {
@@ -468,7 +468,7 @@ header img {
     color: white;
   }
 
-  header :checked ~ .links {
+  header :checked~.links {
     bottom: 0;
   }
 
@@ -483,15 +483,15 @@ header img {
     display: block;
   }
 
-  header :checked ~ .icon-burger .line:nth-child(1) {
+  header :checked~.icon-burger .line:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  header :checked ~ .icon-burger .line:nth-child(3) {
+  header :checked~.icon-burger .line:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  header :checked ~ .icon-burger .line:nth-child(2) {
+  header :checked~.icon-burger .line:nth-child(2) {
     opacity: 0;
   }
 }
